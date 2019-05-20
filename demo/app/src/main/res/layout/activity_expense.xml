@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExpenseCat">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        tools:ignore="MissingConstraints">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/CustomPopupStyle"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+    </android.support.design.widget.AppBarLayout>
+
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:text="EXPENSE CATEGORIES"
+            android:textColor="@color/colorAccent" />
+
+        <!-- Transportation的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+    <EditText
+        android:id="@+id/txtExpCat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Transportation"
+      />
+
+        <EditText
+            android:id="@+id/numExp1"
+            android:layout_width="79dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:hint="$" />
+    </LinearLayout>
+
+
+    <!-- Groceries的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/txtExpCat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Groceries"
+            />
+
+        <EditText
+            android:id="@+id/numExp2"
+            android:layout_width="79dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:hint="$" />
+    </LinearLayout>
+
+
+
+    <!-- Restaurants的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/txtExpCat3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Restaurants"
+            />
+
+        <EditText
+            android:id="@+id/numExp3"
+            android:layout_width="79dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:hint="$" />
+    </LinearLayout>
+
+
+    <!-- Take Out Food"s的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/txtExpCat4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Take Out Food"
+            />
+
+        <EditText
+            android:id="@+id/numExp4"
+            android:layout_width="79dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:hint="$" />
+    </LinearLayout>
+
+
+
+    <!--Take Out Coffee的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/txtExpCat5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Take Out Coffee"
+            />
+
+        <EditText
+            android:id="@+id/numExp5"
+            android:layout_width="79dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:hint="$" />
+    </LinearLayout>
+
+
+    <!--THousehold的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/txtExpCat6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Household"
+            />
+
+        <EditText
+            android:id="@+id/numExp6"
+            android:layout_width="79dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:hint="$" />
+    </LinearLayout>
+
+
+    <!--Clothes的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/txtExpCat7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Clothes"
+            />
+
+        <EditText
+            android:id="@+id/numExp7"
+            android:layout_width="79dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:hint="$" />
+    </LinearLayout>
+
+
+
+    <!--Entertainment的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/txtExpCat8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Entertainment"
+            />
+
+        <EditText
+            android:id="@+id/numExp8"
+            android:layout_width="79dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:hint="$" />
+    </LinearLayout>
+
+
+
+    <!--Sports的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/txtExpCat9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Sports"
+            />
+
+        <EditText
+            android:id="@+id/numExp9"
+            android:layout_width="79dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:hint="$" />
+    </LinearLayout>
+
+
+
+    <!--Other的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/txtExpCat10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Other"
+            />
+
+        <EditText
+            android:id="@+id/numExp10"
+            android:layout_width="79dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:hint="$" />
+    </LinearLayout>
+
+
+
+        <!--date的布局-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:id="@+id/numExp11"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:hint="Select a Date"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/displayNotification"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:background="#D8665E"
+                android:maxWidth="50dp"
+                android:minWidth="50dp"
+                android:text="UPDATE BUDGET"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnAddExpType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="8dp"
+                android:background="#BDB8B8"
+                android:text="ADD"
+                android:textColor="#000000"
+                android:textColorLink="#00F5F0F0" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

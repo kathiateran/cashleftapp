@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#000000</color>
+
+    <!--通用色-->
+    <color name="trans">#00000000</color>
+    <color name="half_trans">#59000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color><!--不可点击，指示性字体色-->
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="yellow_lemon">#FFFACD</color>
+    <color name="gray_light">#DFDFDF</color>
+    <color name="gray_white">#F5F5F5</color>
+    <color name="gray_slate">#708090</color><!--副标题，小标题字体色-->
+    <color name="blue_light">#0083FF</color>
+    <color name="blue_sky">#e1f5fe</color>
+    <color name="blueOA">#4796e5</color>
+    <color name="bottom_bg">#aaaaaa</color>
+</resources>
